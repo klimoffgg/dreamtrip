@@ -1,17 +1,20 @@
+body{
+    font-family: 'rubik', Arial, sans-serif;
+}
+
 .back {
     background-image: url(../images/nature.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @font-face {
     font-family: 'rubik';
     src: url(../fonts/Rubik-Italic-VariableFont_wght.ttf);
     font-weight: normal;
     font-style: normal;
-}
-
-h1{
-    font-family: 'rubik', Arial, sans-serif;
 }
