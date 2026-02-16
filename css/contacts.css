@@ -56,16 +56,19 @@ body{
     text-decoration: none;
 }
 
-.img img{
+.box img{
     width: 50px;
     height: 50px;
-    margin-top: auto;
 }
-
-.img{
-    margin-top: auto;
-    margin-bottom: 50px;
+.tg{
     margin-right: auto;
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 
+.tg:hover {
+    transform: scale(1.2);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
